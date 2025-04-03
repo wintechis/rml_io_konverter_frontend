@@ -9,3 +9,4 @@ rdf_parser/serd_lib/*.h
 rdf_parser/serd_lib/*.c
 *.ttl
 konverter.py
+*pyc
