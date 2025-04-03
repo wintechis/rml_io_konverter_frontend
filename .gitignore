@@ -1,0 +1,10 @@
+/env/
+/venv/
+*.so*
+*.bin
+*.c
+*.nq
+*.csv
+rdf_parser/serd_lib/*
+*.ttl
+konverter.py
