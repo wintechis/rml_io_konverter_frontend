@@ -5,6 +5,7 @@
 *.c
 *.nq
 *.csv
-rdf_parser/serd_lib/*
+rdf_parser/serd_lib/*.h
+rdf_parser/serd_lib/*.c
 *.ttl
 konverter.py
