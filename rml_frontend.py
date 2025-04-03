@@ -191,7 +191,8 @@ def main():
 
     print("Frontend took:", time.time()-start_time)
 
-    run_converter(ra_str)
+    run_converter(ra_str, config.base_uri, config.continue_on_error, config.threading_enabled, 
+                  config.materialize_constants, config.heuristic_ordering)
 
 if __name__ == "__main__":
     main()
