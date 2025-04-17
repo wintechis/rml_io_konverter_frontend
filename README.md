@@ -47,6 +47,10 @@ This is a RML IO frontend for the konverter relational algebra executor. The fro
 - **Shared Libraries:** Ensure that the shared libraries from the backend are correctly located.
 - **Build Scripts:** The provided `build_standalone.sh` and `build.sh` scripts are required for compiling and packaging the frontend.
 
+## Benchmarks
+We benchmarked the RML frontend and the konverter backend against FlexRML and Morph-KGC. The results are shown below.
+![benchmark results](./benchmark.png)
+
 ## Contributing
 
 Feel free to open issues or submit pull requests if you encounter any problems or have suggestions for improvements.
