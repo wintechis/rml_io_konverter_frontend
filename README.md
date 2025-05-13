@@ -1,6 +1,6 @@
 # RML IO - Konverter Frontend
 
-This is a RML IO frontend for the konverter relational algebra executor. The frontend parses valid RML IO formatted mapping files and executes them.
+This is a RML IO frontend for the konverter relational algebra executor. The frontend parses valid RML IO formatted mapping files and generates execution plans that can be executed with the konverter backend.
 
 ## Prerequisites
 
@@ -48,7 +48,7 @@ This is a RML IO frontend for the konverter relational algebra executor. The fro
 - **Build Scripts:** The provided `build_standalone.sh` and `build.sh` scripts are required for compiling and packaging the frontend.
 
 ## Benchmarks
-We benchmarked the RML frontend and the konverter backend against [FlexRML](https://github.com/wintechis/flex-rml) and [Morph-KGC](https://github.com/morph-kgc/morph-kgc). The results are shown below. Missing values indicate an timeout.
+We benchmarked the RML frontend and the konverter backend against [FlexRML](https://github.com/wintechis/flex-rml) and [Morph-KGC](https://github.com/morph-kgc/morph-kgc). The results are shown below. Missing values indicate a timeout.
 ![benchmark results](./benchmark.png)
 
 ## Contributing
