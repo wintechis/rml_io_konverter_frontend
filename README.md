@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **This repository is no longer actively maintained.**
+>
+> **rml_io_konverter_frontend** has been integrated into [FlexRML](https://github.com/wintechis/flex-rml), where its development and maintenance now continue.
+>
+> This repository is retained solely for archival and reproducibility purposes, as it was referenced in the original research paper. For current implementations and updates, please refer to FlexRML.
+
 # RML IO - Konverter Frontend
 
 This is a RML IO frontend for the konverter relational algebra executor. The frontend parses valid RML IO formatted mapping files and generates execution plans that can be executed with the konverter backend.
